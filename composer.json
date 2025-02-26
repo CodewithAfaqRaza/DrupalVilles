@@ -17,9 +17,12 @@
     "require": {
         "composer/installers": "^2.3",
         "drupal/admin_toolbar": "^3.5",
+        "drupal/color_field": "^3.0",
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/linked_field": "^1.6@RC",
+        "drupal/view_mode_switch": "^2.1",
         "drush/drush": "^13.3"
     },
     "conflict": {
