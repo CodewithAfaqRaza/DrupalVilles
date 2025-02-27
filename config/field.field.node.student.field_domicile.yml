@@ -1,0 +1,21 @@
+uuid: 203a221e-9e3e-4d73-b02d-d830fc2216b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domicile
+    - node.type.student
+id: node.student.field_domicile
+field_name: field_domicile
+entity_type: node
+bundle: student
+label: Domicile
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

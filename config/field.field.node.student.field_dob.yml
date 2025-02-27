@@ -1,0 +1,21 @@
+uuid: 736933f9-fc0e-4b97-9ba0-8850477acb6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dob
+    - node.type.student
+  module:
+    - datetime
+id: node.student.field_dob
+field_name: field_dob
+entity_type: node
+bundle: student
+label: DOB
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

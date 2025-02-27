@@ -1,0 +1,46 @@
+uuid: 3ba8d3c8-6ecb-472b-b169-454f5ba359e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.student_dob_fname
+    - field.field.node.student.field_add_separt
+    - field.field.node.student.field_address
+    - field.field.node.student.field_comments
+    - field.field.node.student.field_dob
+    - field.field.node.student.field_domicile
+    - field.field.node.student.field_father_name
+    - field.field.node.student.field_social_links
+    - node.type.student
+  module:
+    - datetime
+    - user
+id: node.student.student_dob_fname
+targetEntityType: node
+bundle: student
+mode: student_dob_fname
+content:
+  field_dob:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_father_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_add_separt: true
+  field_address: true
+  field_comments: true
+  field_domicile: true
+  field_social_links: true
+  links: true

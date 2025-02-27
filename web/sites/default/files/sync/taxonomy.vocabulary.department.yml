@@ -1,0 +1,9 @@
+uuid: c91dcb54-146c-4b1a-af8d-04ea5d244f5f
+langcode: en
+status: true
+dependencies: {  }
+name: Location
+vid: department
+description: null
+weight: 0
+new_revision: false

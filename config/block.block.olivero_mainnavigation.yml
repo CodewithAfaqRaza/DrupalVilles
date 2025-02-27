@@ -1,0 +1,25 @@
+uuid: 235fa733-e469-48f5-aa2e-e78ef8ed49b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_mainnavigation
+theme: olivero
+region: sidebar
+weight: -10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: visible
+  provider: system
+  level: 2
+  depth: 0
+  expand_all_items: false
+visibility: {  }

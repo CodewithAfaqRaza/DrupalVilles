@@ -1,0 +1,14 @@
+uuid: 10ad547a-1696-4b0c-a462-3baec780824f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: teacher
+label: Teacher
+weight: 4
+is_admin: false
+permissions:
+  - 'create article content'

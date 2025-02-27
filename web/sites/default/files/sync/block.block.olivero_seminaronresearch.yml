@@ -1,0 +1,25 @@
+uuid: 75b68c0e-9b3a-450c-887a-fa9cb5785d13
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:6d949ced-7adb-4c5d-ab08-1cb4ae72bf75'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_seminaronresearch
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'block_content:6d949ced-7adb-4c5d-ab08-1cb4ae72bf75'
+settings:
+  id: 'block_content:6d949ced-7adb-4c5d-ab08-1cb4ae72bf75'
+  label: 'Seminar on Research'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

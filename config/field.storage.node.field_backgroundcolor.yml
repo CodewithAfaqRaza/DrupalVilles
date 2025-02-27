@@ -1,0 +1,20 @@
+uuid: e5c29ea4-b5b7-46b4-a9ea-3417f1434af1
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - node
+id: node.field_backgroundcolor
+field_name: field_backgroundcolor
+entity_type: node
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

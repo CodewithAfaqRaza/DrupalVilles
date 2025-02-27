@@ -1,0 +1,47 @@
+uuid: cd7a3739-6d56-4d15-9543-bbd6179d44f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image
+    - core.entity_view_mode.block_content.image_with_link
+    - field.field.block_content.image.field_image
+    - field.field.block_content.image.field_url
+    - field.field.block_content.image.field_view_mode
+  module:
+    - link
+    - linked_field
+id: block_content.image.image_with_link
+targetEntityType: block_content
+bundle: image
+mode: image_with_link
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: field
+        destination: field_url
+        advanced:
+          target: _blank
+    weight: 0
+    region: content
+  field_url:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_view_mode: true

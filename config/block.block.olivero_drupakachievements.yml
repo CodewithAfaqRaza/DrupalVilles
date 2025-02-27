@@ -1,0 +1,25 @@
+uuid: f6d71d1d-5299-4907-90ae-722ae22137ff
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:image:4b8f12b8-7c59-49cd-b3be-291fa11034fd'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_drupakachievements
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'block_content:4b8f12b8-7c59-49cd-b3be-291fa11034fd'
+settings:
+  id: 'block_content:4b8f12b8-7c59-49cd-b3be-291fa11034fd'
+  label: 'Drupak Achievements'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: default
+visibility: {  }

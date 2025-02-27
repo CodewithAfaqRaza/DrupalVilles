@@ -1,0 +1,11 @@
+uuid: 778e862e-32ef-421d-b88a-99e6c03a26a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.image_with_link
+label: 'Image with Link'
+description: ''
+targetEntityType: block_content
+cache: true

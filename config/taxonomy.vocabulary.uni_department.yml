@@ -1,0 +1,9 @@
+uuid: daad9505-d473-4d56-a96a-36a9efd87656
+langcode: en
+status: true
+dependencies: {  }
+name: Department
+vid: uni_department
+description: null
+weight: 0
+new_revision: false

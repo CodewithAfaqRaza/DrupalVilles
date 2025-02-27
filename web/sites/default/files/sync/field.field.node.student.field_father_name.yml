@@ -1,0 +1,19 @@
+uuid: 82df79fb-2084-4df4-9367-637db42b68d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_father_name
+    - node.type.student
+id: node.student.field_father_name
+field_name: field_father_name
+entity_type: node
+bundle: student
+label: 'Father Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

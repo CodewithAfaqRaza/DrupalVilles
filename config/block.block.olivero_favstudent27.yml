@@ -1,0 +1,25 @@
+uuid: 541ef670-a7ad-4201-87d8-b3e95a95f4b4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:favorite_student:3a1180a4-6b30-4f65-bf51-bd542c5c437a'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_favstudent27
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:3a1180a4-6b30-4f65-bf51-bd542c5c437a'
+settings:
+  id: 'block_content:3a1180a4-6b30-4f65-bf51-bd542c5c437a'
+  label: 'Fav Student 27'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

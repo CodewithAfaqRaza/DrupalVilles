@@ -1,0 +1,21 @@
+uuid: 40688eac-666f-4356-97cc-3d18ff41f0b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.favorite_student
+    - field.storage.block_content.field_date
+  module:
+    - datetime
+id: block_content.favorite_student.field_date
+field_name: field_date
+entity_type: block_content
+bundle: favorite_student
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

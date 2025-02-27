@@ -1,0 +1,22 @@
+uuid: eaef1d02-7039-45fe-92fd-fd3deffdd9f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_backgroundcolor
+    - node.type.article
+  module:
+    - color_field
+id: node.article.field_backgroundcolor
+field_name: field_backgroundcolor
+entity_type: node
+bundle: article
+label: BackgroundColor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

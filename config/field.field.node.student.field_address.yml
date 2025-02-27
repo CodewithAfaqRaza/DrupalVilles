@@ -1,0 +1,22 @@
+uuid: eec7fc9c-da73-41a8-9ada-2700ec0f2ed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.student
+  module:
+    - text
+id: node.student.field_address
+field_name: field_address
+entity_type: node
+bundle: student
+label: Address
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text
