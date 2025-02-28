@@ -1,0 +1,14 @@
+uuid: d8eeb057-28cd-4baf-90dc-c6bfcc92fe6b
+langcode: en
+status: true
+dependencies: {  }
+name: style_800_560
+label: Style_800_560
+effects:
+  a750b8c6-58bb-4b9f-a87f-9c0a0e6e3a49:
+    uuid: a750b8c6-58bb-4b9f-a87f-9c0a0e6e3a49
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 560

@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.student.field_dob
     - field.field.node.student.field_domicile
     - field.field.node.student.field_father_name
+    - field.field.node.student.field_picture
     - field.field.node.student.field_social_links
     - node.type.student
   module:
@@ -42,5 +43,6 @@ hidden:
   field_address: true
   field_comments: true
   field_domicile: true
+  field_picture: true
   field_social_links: true
   links: true

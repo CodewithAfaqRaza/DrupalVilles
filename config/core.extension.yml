@@ -27,6 +27,8 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   media: 0
   media_library: 0
@@ -43,11 +45,13 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   update: 0
   user: 0
   view_mode_switch: 0
   views_ui: 0
+  pathauto: 1
   views: 10
   linked_field: 100
   standard: 1000

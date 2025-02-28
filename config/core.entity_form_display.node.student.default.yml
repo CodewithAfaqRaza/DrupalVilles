@@ -9,12 +9,14 @@ dependencies:
     - field.field.node.student.field_dob
     - field.field.node.student.field_domicile
     - field.field.node.student.field_father_name
+    - field.field.node.student.field_picture
     - field.field.node.student.field_social_links
     - node.type.student
   module:
     - comment
     - datetime
     - link
+    - media_library
     - path
     - text
 id: node.student.default
@@ -72,6 +74,13 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_picture:
+    type: media_library_widget
+    weight: 128
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_social_links:
     type: link_default

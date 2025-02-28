@@ -1,0 +1,8 @@
+uuid: 87da364a-d675-4aab-9ddc-ca750b20ab97
+langcode: en
+status: true
+dependencies: {  }
+id: waseem_date
+label: 'Waseem Date'
+locked: false
+pattern: m.d.y

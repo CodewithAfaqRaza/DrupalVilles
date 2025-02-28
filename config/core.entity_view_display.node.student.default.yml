@@ -10,14 +10,20 @@ dependencies:
     - field.field.node.student.field_dob
     - field.field.node.student.field_domicile
     - field.field.node.student.field_father_name
+    - field.field.node.student.field_picture
     - field.field.node.student.field_social_links
     - node.type.student
   module:
     - comment
     - datetime
+    - layout_builder
     - link
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 id: node.student.default
 targetEntityType: node
 bundle: student
@@ -29,7 +35,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 5
+    weight: 6
     region: content
   field_address:
     type: text_default
@@ -45,14 +51,14 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    weight: 6
+    weight: 7
     region: content
   field_dob:
     type: datetime_default
     label: above
     settings:
       timezone_override: ''
-      format_type: medium
+      format_type: waseem_date
     third_party_settings: {  }
     weight: 1
     region: content
@@ -74,6 +80,15 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_picture:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
   field_social_links:
     type: link
     label: above
@@ -84,7 +99,8 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 4
+    weight: 5
     region: content
 hidden:
+  layout_builder__layout: true
   links: true

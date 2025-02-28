@@ -1,0 +1,11 @@
+uuid: 1de77e25-c7c1-4d87-8e38-f014f9b0896e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.image_right_content_left
+label: 'Image right Content Left'
+description: ''
+targetEntityType: node
+cache: true

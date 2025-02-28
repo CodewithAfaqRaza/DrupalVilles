@@ -10,7 +10,7 @@ dependencies:
     - field.field.node.article.field_department
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.wide
+    - image.style.style_800_560
     - node.type.article
   module:
     - color_field
@@ -63,7 +63,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: wide
+      image_style: style_800_560
       image_loading:
         attribute: eager
     third_party_settings: {  }
