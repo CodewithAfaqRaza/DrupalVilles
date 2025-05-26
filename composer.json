@@ -26,6 +26,7 @@
         "drupal/pathauto": "^1.13",
         "drupal/token": "^1.15",
         "drupal/view_mode_switch": "^2.1",
+        "drupal/vvjs": "^1.0",
         "drush/drush": "^13.3"
     },
     "conflict": {
